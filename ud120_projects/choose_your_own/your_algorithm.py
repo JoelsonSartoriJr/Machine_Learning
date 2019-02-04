@@ -3,6 +3,9 @@
 import matplotlib.pyplot as plt
 from prep_terrain_data import makeTerrainData
 from class_vis import prettyPicture
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
 
 features_train, labels_train, features_test, labels_test = makeTerrainData()
 
@@ -31,14 +34,23 @@ plt.show()
 ### your code here!  name your classifier object clf if you want the 
 ### visualization code (prettyPicture) to show you the decision boundary
 
+#k nearest neighbors
+clf_knn = KNeighborsClassifier(n_neighbors=4)
+clf_knn.fit(features_train, labels_train)
+pred_knn = clf_knn.predict(features_test)
+acc_knn = accuracy_score(pred_knn, labels_test)
 
+print("Accuracy KNN: {}".format(acc_knn))
 
+#Sklearn Random Forest Classifier 
+clf_rfc = RandomForestClassifier(n_estimators=50, max_depth=2,random_state=2)
+clf_rfc.fit(features_train, labels_train)
+pred_rfc = clf_rfc.predict(features_test)
+acc_rfc = accuracy_score(pred_rfc, labels_test)
 
-
-
-
+print("Accuracy RFC: {}".format(acc_rfc))
 
 try:
-    prettyPicture(clf, features_test, labels_test)
+    prettyPicture(clf_rfc, features_test, labels_test)
 except NameError:
     pass

@@ -21,9 +21,10 @@ from sklearn.metrics import accuracy_score
 features_train, features_test, labels_train, labels_test = preprocess()
 
 #########################################################
+print(len(features_train[0]))
 ### your code goes here ###
 #Create model
-clf = DecisionTreeClassifier(random_state=0)
+clf = DecisionTreeClassifier(random_state=0, min_samples_split=40)
 #Training model
 clf.fit(features_train, labels_train)
 #Predict model
