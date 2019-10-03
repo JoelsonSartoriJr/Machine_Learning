@@ -25,3 +25,38 @@ Thinking about data
     - [ x ] Decision Tree Classification
     - [ x ] Random Forest Classification
     - [ x ] Evaluating Classification Models Performance
+    
+  - [ x ] Clustering:
+  
+    - [ x ] K-Means Clustering
+    - [ x ] Hierarchical Clustering
+
+  - [ x ] Association Rule Learning:
+  
+    - [ x ] Apriori
+    - [ x ] Eclat
+
+  - [ x ] Reinforcement Learning:
+  
+    - [ x ] Upper Confidence Bound (UCB)
+    - [ x ] Thompson Sampling
+    
+  - [  ] Natural Language Processing:
+  
+    - [  ] Natural Language Processing Algorithms
+  
+  - [ x ] Deep Learning:
+    
+    - [ x ] Artificial Neural Networks (ANN)
+    - [ x ] Convolutional Neural Networks (CNN)
+  
+  - [  ] Dimensionality Reduction:
+  
+    - [ x_] Principal Component Analysis (PCA)
+    - [   ] Linear Discriminant Analysis (LDA)
+    - [   ] Kernel PCA
+    
+  - [  ] Model Selection:
+  
+    - [  ] Model Selection
+    - [  ] XGBoost
