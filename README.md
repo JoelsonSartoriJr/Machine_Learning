@@ -52,7 +52,7 @@ Thinking about data
   
   - [  ] Dimensionality Reduction:
   
-    - [ x_] Principal Component Analysis (PCA)
+    - [ x ] Principal Component Analysis (PCA)
     - [   ] Linear Discriminant Analysis (LDA)
     - [   ] Kernel PCA
     
