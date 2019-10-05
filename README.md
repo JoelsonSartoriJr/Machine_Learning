@@ -41,22 +41,22 @@ Thinking about data
     - [x] Upper Confidence Bound (UCB)
     - [x] Thompson Sampling
     
-  - [] Natural Language Processing:
+  - [ ] Natural Language Processing:
   
-    - [] Natural Language Processing Algorithms
+    - [ ] Natural Language Processing Algorithms
   
   - [x] Deep Learning:
     
     - [x] Artificial Neural Networks (ANN)
     - [x] Convolutional Neural Networks (CNN)
   
-  - [] Dimensionality Reduction:
+  - [ ] Dimensionality Reduction:
   
     - [x] Principal Component Analysis (PCA)
     - [x] Linear Discriminant Analysis (LDA)
-    - [] Kernel PCA
+    - [ ] Kernel PCA
     
-  - [] Model Selection:
+  - [ ] Model Selection:
   
-    - [] Model Selection
-    - [] XGBoost
+    - [ ] Model Selection
+    - [ ] XGBoost
