@@ -56,7 +56,7 @@ Thinking about data
     - [x] Linear Discriminant Analysis (LDA)
     - [x] Kernel PCA
     
-  - [ ] Model Selection:
+  - [x] Model Selection:
   
     - [x] Model Selection
-    - [ ] XGBoost
+    - [x] XGBoost
