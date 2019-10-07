@@ -58,5 +58,5 @@ Thinking about data
     
   - [ ] Model Selection:
   
-    - [ ] Model Selection
+    - [x] Model Selection
     - [ ] XGBoost
