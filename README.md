@@ -1,5 +1,5 @@
 # Machine Learning
-Coursera Machine Learning A-Z
+Udemy Machine Learning A-Z
 
 Thinking about data
   - [x] Data Processing
